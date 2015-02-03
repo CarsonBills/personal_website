@@ -4,25 +4,32 @@
 	<meta charset="UTF-8">
 	<title>Carson Bills</title>
 	<link rel="stylesheet" href="styles.css">
-	<script src="jquery.js"></script>
-	<script src="scripts.js"></script>
+	<script src="/javascripts/lib/jquery-1.11.2.js"></script>
+	<script src="/javascripts/lib/scripts.js"></script>
 </head>
 <body>
 	<div id="left"></div>
 	<div id="right"></div>
 	<div id="top"></div>
 	<div id="bottom"></div>
-	<div class="content">
-		<h1> Carson Bills </h1>
-		<h2> 
-			New York based full-stack web developer with emphasis on Ruby on Rails and Javascript.
-
-			CarsonMBills[at]gmail[dot]com
-		</h2>
-	</div>
+	<div class="content">	
+		<div class="name">
+			<h1 class="name"> Carson Bills </h1>
+		</div>
+		<div class="about">
+			<h3 class="about"> 
+				New York based full-stack web developer with emphasis on Ruby on Rails and Javascript.
+			</h3>
+		</div>
+	</div>	
+	<div class="footer">
+		<div class="contact">
+			CarsonMBills[at]Gmail[dot]com
+		</div>
+	</div>	
 	<script charset="utf-8">
 		$(function(){
-			loadIndex();
+			$("h1.name").hide();
 		})
 	</script>
 </body>

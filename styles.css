@@ -1,9 +1,16 @@
 body {
-	background-color: lightblue;
+	background-color: #E4E0F2;
+	font-family: 'Lato', sans-serif;
 }
-
+h1 {
+	font-size: 50px;
+	color: #3B2E63;
+}
+h3 {
+	font-size: 22px;
+}
 #top, #bottom, #left, #right {
-	background: white;
+	background: #3B2E63;
 	position: fixed;
 	}
 	#left, #right {
@@ -24,5 +31,21 @@ div.content {
 	display: block;
 	text-align: center;
 	margin: 0 auto;
+	width: 65%;
 	margin-top: 7%;
+}
+
+div.footer {
+	position: absolute;
+	background-color: #B6B1C8;
+	display: block;
+	text-align: center;
+	width: 100%;
+	bottom: 15px;
+	padding: 2% 0% 2% 0%;
+	z-index: -1;
+}
+div.contact {
+	display: block;
+	width: 30%;
 }
