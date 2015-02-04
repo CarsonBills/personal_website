@@ -15,12 +15,39 @@
 	<div class="content">	
 		<div class="name">
 			<h1 class="name"> Carson Bills </h1>
-		</div>
-		<div class="about">
 			<h3 class="about"> 
 				New York based full-stack web developer with emphasis on Ruby on Rails and Javascript.
 			</h3>
 		</div>
+		<div class="nav">
+			<h2 class="projects">Projects</h2>
+			<h2 class="contact">Contact</h2>
+			<h2 class="stack">Stack</h2>
+			<h3 class="projects">
+				<div class="projects">
+					<p>Restaurant</p>
+					<a href="http://104.131.196.163/">
+						<img src="/images/restaurant.png"  class="screenshot">
+					</a>
+					<p>Seek</p>
+					<a href="http://sightseek.herokuapp.com/">
+						<img src="/images/seek.png"  class="screenshot">
+					</a>
+					<p>BusyQuill</p>
+					<a href="http://busyquill.herokuapp.com/">
+						<img src="/images/busyquill.png"  class="screenshot">
+					</a>
+				</div> 
+			</h3>
+			<h3 class="contact"> 
+				Resume LinkedIn Github Twitter
+			</h3>
+			<h3 class="stack">
+				Ruby Rails Sinatra Postgresql Git/Github
+				Javascript JQuery Underscore.js Backbone.js HTML5/CSS3
+			</h3>
+		</div>
+		<div class="push"></div>
 	</div>	
 	<div class="footer">
 		<div class="contact">
@@ -29,7 +56,13 @@
 	</div>	
 	<script charset="utf-8">
 		$(function(){
-			$("h1.name").hide();
+			$("h3.projects").hide();
+			$("h3.contact").hide();
+			$("h3.stack").hide();
+			showContact();
+			showProjects();
+			showStack();
+
 		})
 	</script>
 </body>
