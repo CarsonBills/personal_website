@@ -58,9 +58,9 @@ div.contact {
 }
 
 h2 {
-	background-color: #B6B1C8;
 	display: inline-block;
 	width: 20%;
+	font-size: 25px;
 }
 
 img {
@@ -83,4 +83,7 @@ img {
 }
 div.projects {
 	width: 100%;
+}
+.underline:hover {
+	text-decoration: underline;
 }

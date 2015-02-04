@@ -27,3 +27,10 @@ function showProjects(){
 		$("h3.projects").fadeIn(300);
 	});
 }
+
+
+
+
+
+
+
