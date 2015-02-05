@@ -12,6 +12,9 @@ h1.name {
 	color: #3B2E63;
 	top: 20%;
 }
+div.name {
+	margin-top: 20%;
+}
 
 h2.about {
 	font-size: 40px;
@@ -43,7 +46,7 @@ h3 {
 div.content {
 	display: block;
 	text-align: center;
-	margin: 0 auto -2em;
+	margin: 0 auto;
 	width: 65%;
 	margin-top: 7%;
 }
@@ -122,7 +125,6 @@ h2.stack {
 div.contact {
 	position: relative;
 	height: 310px;
-/*	z-index: -1;*/
 	margin-bottom: 10%;
 }
 
