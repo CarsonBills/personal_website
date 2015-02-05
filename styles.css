@@ -97,27 +97,24 @@ div.projects {
 }
 .nav {
 	height: 66px;
+	top: 0;
 }
-.links {
-	display: inline-block;
-	position: absolute;
-	width: 30%;
-	height: 25px;
-}
-
 h2.projects {
 	position: absolute;
 	left: 29%;
+	top: 0;
 }
 
 h2.contact {
 	position: absolute;
 	left: 45.5%;
+	top: 0;
 }
 
 h2.stack {
 	position: absolute;
 	left: 61.5%;
+	top: 0;
 }
 div.contact {
 	position: relative;
