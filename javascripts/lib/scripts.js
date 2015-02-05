@@ -28,6 +28,14 @@ function showProjects(){
 	});
 }
 
+function showLanding(){
+	$("h1.name").on("click", function(){
+		$("h3.stack").hide();
+		$("h3.contact").hide();
+		$("h3.projects").hide();
+	});
+}
+
 function navHover(){
 	$(".underline").hover(function(){
 		$(this).animate({ fontSize: "28px" });

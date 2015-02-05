@@ -6,16 +6,23 @@ body {
 	background-color: #E4E0F2;
 	font-family: 'Lato', sans-serif;
 }
-h1 {
+h1.name {
 	font-size: 50px;
 	color: #3B2E63;
+	margin-top: 60px;
 }
+
+h2.about {
+	font-size: 40px;
+}
+
 h3 {
 	font-size: 22px;
 }
 #top, #bottom, #left, #right {
 	background: #3B2E63;
 	position: fixed;
+	z-index: 2;
 	}
 	#left, #right {
 		top: 0; bottom: 0;
@@ -30,6 +37,7 @@ h3 {
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
+
 
 div.content {
 	display: block;
@@ -51,8 +59,9 @@ div.footer {
 	clear: both;
 }
 
-div.contact {
+div.email {
 	display: block;
+	position: relative;
 	width: 30%;
 	padding-top: 1em;
 }
@@ -103,10 +112,37 @@ h2.projects {
 
 h2.contact {
 	position: absolute;
-	left: 45%;
+	left: 45.5%;
 }
 
 h2.stack {
 	position: absolute;
-	left: 61%;
+	left: 61.5%;
+}
+div.contact {
+	position: relative;
+	height: 310px;
+/*	z-index: -1;*/
+	margin-bottom: 10%;
+}
+
+div.contact_links {
+	position: absolute;
+	display: inline-block;
+	width: 49%;
+	left: 0;
+	top: 16%;
+
+}
+div.contact_profile {
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	right: 0;
+}
+img.profile {
+	width: 70%;
+	height: 70%;
+	border-radius: 45%;
+	border: solid 8px #3B2E63;
 }
