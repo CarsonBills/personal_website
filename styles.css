@@ -7,9 +7,10 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 h1.name {
+	position: relative;
 	font-size: 50px;
 	color: #3B2E63;
-	margin-top: 60px;
+	top: 20%;
 }
 
 h2.about {
@@ -98,23 +99,25 @@ div.projects {
 .nav {
 	height: 66px;
 	top: 0;
+	background-color: #B6B1C8;
+	width: 100%;
 }
 h2.projects {
 	position: absolute;
-	left: 29%;
-	top: 0;
+	right: 26%;
+	top: 1;
 }
 
 h2.contact {
 	position: absolute;
-	left: 45.5%;
-	top: 0;
+	right: 13%;
+	top: 1;
 }
 
 h2.stack {
 	position: absolute;
-	left: 61.5%;
-	top: 0;
+	right: 3%;
+	top: 1;
 }
 div.contact {
 	position: relative;
