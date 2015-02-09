@@ -59,10 +59,6 @@ div.footer {
 	z-index: -1;
 }
 
-.footer, .push {
-	clear: both;
-}
-
 div.email {
 	display: block;
 	position: relative;
@@ -83,8 +79,7 @@ img {
 }
 
 .content {
-  min-height: 100%;
-  margin-bottom: -60px; 
+  min-height: 80%;
 }
 .content:after {
   content: "";
@@ -145,6 +140,4 @@ div.contact_profile {
 img.profile {
 	width: 70%;
 	height: 70%;
-	border-radius: 45%;
-	border: solid 8px #3B2E63;
 }
