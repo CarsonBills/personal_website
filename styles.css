@@ -3,13 +3,13 @@ html, body {
 }
 
 body {
-	background-color: #E4E0F2;
+	background-color: #EEEEEE;
 	font-family: 'Lato', sans-serif;
 }
 h1.name {
 	position: relative;
 	font-size: 50px;
-	color: #3B2E63;
+	color: #46719C;
 	top: 20%;
 }
 div.name {
@@ -18,13 +18,14 @@ div.name {
 
 h2.about {
 	font-size: 30px;
+	color: #515151;
 }
 
 h3 {
 	font-size: 22px;
 }
 #top, #bottom, #left, #right {
-	background: #3B2E63;
+	background: #46719C;
 	position: fixed;
 	z-index: 2;
 	}
@@ -52,7 +53,7 @@ div.content {
 }
 
 div.footer {
-	background-color: #B6B1C8;
+	background-color: #515151;
 	text-align: center;
 	width: 100%;
 	padding: 2% 0% 2% 0%;
@@ -64,11 +65,13 @@ div.email {
 	position: relative;
 	width: 30%;
 	padding-top: 1em;
+	color: white;
 }
 
 h2 {
 	display: inline-block;
 	font-size: 25px;
+	color: white;
 }
 
 img {
@@ -94,7 +97,7 @@ div.projects {
 .nav {
 	height: 66px;
 	top: 0;
-	background-color: #B6B1C8;
+	background-color: #515151;
 	width: 100%;
 }
 h2.bio {
