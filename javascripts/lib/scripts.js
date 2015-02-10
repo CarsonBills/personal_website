@@ -51,7 +51,7 @@ function showLanding(){
 }
 
 function navHover(){
-	$(".underline").hover(function(){
+	$("span.nav").hover(function(){
 		$(this).animate({ fontSize: "28px" });
 }, function(){
 	$(this).animate({ fontSize: "25px" });
