@@ -53,7 +53,7 @@ div.content {
 }
 
 div.footer {
-	background-color: #515151;
+	background-color: #2C3E50;
 	text-align: center;
 	width: 100%;
 	padding: 2% 0% 2% 0%;
@@ -97,7 +97,7 @@ div.projects {
 .nav {
 	height: 66px;
 	top: 0;
-	background-color: #515151;
+	background-color: #2C3E50;
 	width: 100%;
 }
 h2.bio {
@@ -165,6 +165,7 @@ li, ul {
 	margin: 0;
 	padding: 0;
 	text-align: left;
+	font-size: 20px;
 }
 ul.right_stack {
 	margin-left: 12%;
@@ -172,7 +173,7 @@ ul.right_stack {
 h3.bio {
 	font-size: 30px;
 }
-div.bio p {
+p {
 	font-size: 20px;
 }
 div.project {
