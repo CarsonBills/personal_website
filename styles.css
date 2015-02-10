@@ -91,14 +91,16 @@ img {
 div.projects {
 	width: 100%;
 }
-.underline:hover {
-	text-decoration: underline;
-}
 .nav {
 	height: 66px;
 	top: 0;
 	background-color: #B6B1C8;
 	width: 100%;
+}
+h2.bio {
+	position: absolute;
+	right: 40%;
+	top: 1;
 }
 h2.projects {
 	position: absolute;
