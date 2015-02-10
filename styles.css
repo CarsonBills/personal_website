@@ -148,8 +148,8 @@ div.profile {
 	/*right: 0;*/
 }
 img.profile {
-	width: 60%;
-	height: 60%;
+	width: 200px;
+	height: 279px;
 }
 
 div.left_stack, div.right_stack {
@@ -171,4 +171,7 @@ h3.bio {
 }
 div.bio p {
 	font-size: 20px;
+}
+div.project {
+	margin-bottom: 10%;
 }
