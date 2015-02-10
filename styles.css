@@ -191,29 +191,6 @@ div.projects, div.bio {
   	margin-left: 40px;
   }
 }
-
-/*h2.bio {
-	position: absolute;
-	right: 40%;
-	top: 1;
-}
-h2.projects {
-	position: absolute;
-	right: 26%;
-	top: 1;
-}
-
-h2.contact {
-	position: absolute;
-	right: 13%;
-	top: 1;
-}
-
-h2.stack {
-	position: absolute;
-	right: 3%;
-	top: 1;
-}*/
 div.contact {
 	position: relative;
 	height: 310px;
@@ -263,4 +240,7 @@ p {
 }
 div.project {
 	margin-bottom: 10%;
+}
+h1, span.nav {
+	cursor: pointer;
 }
