@@ -147,7 +147,7 @@ div.bio_text p {
 div.profile {
 	position: absolute;
 	display: inline-block;
-	width: 50%;
+	width: 324px;
 	/*right: 0;*/
 }
 img.profile {
