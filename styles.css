@@ -143,3 +143,24 @@ img.profile {
 	width: 70%;
 	height: 70%;
 }
+
+div.left_stack, div.right_stack {
+	position: relative;
+	display: inline-block;
+	left: 0;
+}
+li, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+ul.right_stack {
+	margin-left: 12%;
+}
+h3.bio {
+	font-size: 30px;
+}
+div.bio p {
+	font-size: 20px;
+}

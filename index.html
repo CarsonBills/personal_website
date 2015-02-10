@@ -25,6 +25,16 @@
 				Full-stack web developer with an emphasis on Ruby on Rails and Javascript.
 			</h2>
 		</div>
+			<h3 class="bio">
+				<div class="bio">
+					A little about me:
+					<p> I am a web developer and a bookworm with a fondness for swing dancing and socks with polka dots. </p>
+					<p> Graduate of General Assembly's Web Development Immersive Program, December 2014. <p>
+					<p> Currently seeking full-time employment. </p>
+
+
+				</div>
+			</h3>
 			<h3 class="projects">
 				<div class="projects">
 					<p>Restaurant</p>
@@ -63,8 +73,24 @@
 				</div>
 			</h3>
 			<h3 class="stack">
-				Ruby Rails Sinatra Postgresql Git/Github
-				Javascript JQuery Underscore.js Backbone.js HTML5/CSS3
+				<div class="left_stack">
+					<ul class="left_stack">
+						<li>Ruby</li>
+					 	<li>Rails</li>
+					 	<li>Sinatra</li>
+					 	<li>Postgresql</li>
+					 	<li>Git/Github</li>
+					</ul>
+				</div>
+				<div class="right_stack">
+					<ul class="right_stack">
+						<li>Javascript</li>
+						<li>JQuery</li>
+						<li>Underscore.js</li>
+						<li>Backbone.js</li>
+						<li>HTML5/CSS3</li> 
+					</ul>
+				</div>
 				
 			</h3>
 	</div>	
@@ -78,7 +104,9 @@
 			$("h3.projects").hide();
 			$("h3.contact").hide();
 			$("h3.stack").hide();
+			$("h3.bio").hide();
 			showContact();
+			showBio();
 			showProjects();
 			showStack();
 			showLanding();

@@ -5,6 +5,7 @@ function showStack(){
 		$("h3.contact").hide();
 		$("h3.projects").hide();	
 		$("h2.about").hide();	
+		$("h3.bio").hide();
 		$("h3.stack").fadeIn(300);
 	});
 }
@@ -14,6 +15,7 @@ function showContact(){
 		$("h3.stack").hide();
 		$("h3.projects").hide();
 		$("h2.about").hide();
+		$("h3.bio").hide();
 		$("h3.contact").fadeIn(300);
 	});
 }
@@ -22,8 +24,19 @@ function showProjects(){
 	$("h2.projects").on("mouseover", function(){
 		$("h3.stack").hide();
 		$("h3.contact").hide();
+		$("h3.bio").hide();
 		$("h2.about").hide();
 		$("h3.projects").fadeIn(300);
+	});
+}
+
+function showBio(){
+	$("h2.bio").on("mouseover", function(){
+		$("h3.stack").hide();
+		$("h3.contact").hide();
+		$("h2.about").hide();
+		$("h3.projects").hide();
+		$("h3.bio").fadeIn(300);
 	});
 }
 
@@ -43,6 +56,8 @@ function navHover(){
 	$(this).animate({ fontSize: "25px" });
 	});
 }
+
+
 
 
 
