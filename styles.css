@@ -126,22 +126,30 @@ div.contact {
 }
 
 div.contact_links {
-	position: absolute;
-	display: inline-block;
-	width: 49%;
-	left: 0;
-	top: 16%;
 
 }
-div.contact_profile {
+div.bio {
+	position: relative;
+}
+
+div.bio_text {
 	position: absolute;
 	display: inline-block;
 	width: 50%;
-	right: 0;
+	left: 8%;
+}
+div.bio_text p {
+	text-align: left;
+}
+div.profile {
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	/*right: 0;*/
 }
 img.profile {
-	width: 70%;
-	height: 70%;
+	width: 60%;
+	height: 60%;
 }
 
 div.left_stack, div.right_stack {

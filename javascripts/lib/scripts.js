@@ -46,6 +46,7 @@ function showLanding(){
 		$("div.stack").hide();
 		$("div.contact").hide();
 		$("div.projects").hide();
+		$("div.bio").hide();
 		$("div.about").fadeIn(300);
 	});
 }
