@@ -130,6 +130,7 @@ div.projects, div.bio {
   float:left; 
   margin-right:20px;
   width:170px;
+  padding-left: 50px;
 }
 
 @media screen and (max-width: 855px) {
