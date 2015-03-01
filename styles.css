@@ -134,7 +134,7 @@ div.projects, div.bio {
   padding-left: 50px;
 }
 
-@media screen and (max-width: 855px) {
+@media screen and (max-width: 900px) {
 	.nav {
 		height: 120px;
 	}
