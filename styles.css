@@ -246,3 +246,7 @@ div.project {
 h1, span.nav {
 	cursor: pointer;
 }
+div.description {
+	max-width: 630px;
+	margin: 0 auto;
+}
