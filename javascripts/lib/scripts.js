@@ -1,7 +1,7 @@
 console.log(":)")
 
 function showBio(){
-	$("h2.bio").on("click", function(){
+	$("ul.bio").on("click", function(){
 		$("div.stack").hide();
 		$("div.contact").hide();
 		$("div.about").hide();
@@ -11,7 +11,7 @@ function showBio(){
 }
 
 function showStack(){
-	$("h2.stack").on("click", function(){
+	$("ul.stack").on("click", function(){
 		$("div.contact").hide();
 		$("div.projects").hide();	
 		$("div.about").hide();	
@@ -21,7 +21,7 @@ function showStack(){
 }
 
 function showContact(){
-	$("h2.contact").on("click", function(){
+	$("ul.contact").on("click", function(){
 		$("div.stack").hide();
 		$("div.projects").hide();
 		$("div.about").hide();
@@ -31,7 +31,7 @@ function showContact(){
 }
 
 function showProjects(){
-	$("h2.projects").on("click", function(){
+	$("ul.projects").on("click", function(){
 		$("div.stack").hide();
 		$("div.contact").hide();
 		$("div.bio").hide();
@@ -51,13 +51,6 @@ function showLanding(){
 	});
 }
 
-function navHover(){
-	$("span.nav").hover(function(){
-		$(this).animate({ fontSize: "28px" });
-}, function(){
-	$(this).animate({ fontSize: "25px" });
-	});
-}
 
 
 

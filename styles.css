@@ -84,14 +84,26 @@ div.email {
 	display: block;
 	position: relative;
 	width: 30%;
-	padding-top: 1em;
+	padding-top: 0.75em;
 	color: white;
+	margin-left: 40px;
 }
 
-h2 {
+div.nav {
+	text-align: center;
+	width: 100%;
+	height: 66px;
+	background-color: #2C3E50;
+	overflow: hidden;
+}
+
+div.nav ul {
+	width: 150px;
+	text-align: center;
 	display: inline-block;
 	font-size: 25px;
 	color: white;
+	margin-top: 20px;
 }
 
 img {
@@ -114,103 +126,14 @@ img {
 div.projects, div.bio {
 	width: 100%;
 }
-.nav {
-	height: 66px;
-	top: 0;
-	background-color: #2C3E50;
-	width: 100%;
-	overflow: hidden;
-}
-.nav div  {
-	padding-left: 20px;
-}
 
-#four {
-  background-color: #2C3E50;
-  float:left; 
-  margin-right:20px;
-  width:170px;
-}
 
-#three {
-  background-color: #2C3E50;
-  float:left; 
-  margin-right:20px;
-  width:170px;
-}
-#two {
-  background-color: #2C3E50;
-  float:left; 
-  margin-right:20px;
-  width:170px;
-}
-#one {
-  background-color: #2C3E50;
-  float:left; 
-  margin-right:20px;
-  width:170px;
-  padding-left: 50px;
-}
-
-@media screen and (max-width: 900px) {
-	.nav {
+@media screen and (max-width: 630px) {
+	div.nav {
 		height: 120px;
 	}
-	.nav h2 {
-		position: absolute;
-	}
-	h2.bio {
-		top: 1;
-		left: 200px;
-	}
-	h2.projects {
-		top: 1;
-		left: 500px;
-	}
-	h2.stack {
-		top: 60px;
-		left: 500px;
-	}
-	h2.contact {
-		top: 60px;
-		left: 200px;
-	}
-	.email {
-  	margin-left: 40px;
-  }
 }
 
-@media screen and (max-width: 650px) {
-   #one { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;  
-  }
-  .nav {
-  	height: 210px;
-  }
-  h2.bio {
-		top: 8px;
-		left: 100px;
-	}
-	h2.projects {
-		top: 112px;
-		left: 200px;
-	}
-	h2.stack {
-		top: 164px;
-		left: 250px;
-	}
-	h2.contact {
-		top: 60px;
-		left: 150px;
-
-	}
-  .email {
-  	margin-left: 40px;
-  }
-}
 div.contact {
 	position: relative;
 	height: 310px;
@@ -274,5 +197,14 @@ h1, span.nav {
 div.description {
 	max-width: 630px;
 	margin: 0 auto;
+}
+
+span.nav {
+	border: 2px solid #2C3E50;
+}
+
+span.nav:hover {
+	border: 2px solid white;
+	padding: 5px;
 }
 
