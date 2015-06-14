@@ -142,16 +142,23 @@ div.contact {
 	position: relative;
 	height: 310px;
 	margin-bottom: 10%;
+	display: none;
 }
 
 div.stack {
 	position: relative;
 	height: 310px;
 	margin-bottom: 10%;
+	display: none;
 }
 
 div.bio {
 	position: relative;
+	display: none;
+}
+
+div.projects {
+	display: none;
 }
 
 div.bio p {
