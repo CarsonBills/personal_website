@@ -10,8 +10,13 @@ app.set("layout", "layout.ejs")
 app.use(expressLayouts);
 
 app.get('/', function(req, res){
-  res.render('index', { layout: 'layout.ejs' })
+  res.render('index', { layout: 'layout.ejs', heading: "Carson M Bills" })
 })
+
+app.get("/projects", function(req, res){
+	res.send({test: "Boop", heading: "Projects"})
+})
+
 
 
 app.listen(8080);

@@ -1,4 +1,12 @@
 html, body {
+	height: 100%;
+	background-color: #eee;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+/*html, body {
   height: 100%;
 }
 
@@ -219,3 +227,4 @@ span.nav:hover {
 	padding: 5px;
 }
 
+*/

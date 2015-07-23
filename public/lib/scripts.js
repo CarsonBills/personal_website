@@ -1,9 +1,3 @@
-console.log(":)")
-
-
-
-
-
-
+var app = angular.module("cmb", []);
 
 
