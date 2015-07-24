@@ -1,1 +1,9 @@
 <h1> portfolio </h1>
+
+<div class="portfolio-wrapper">
+	<div class="projects" ng-repeat="project in portfolioController.projects">
+		<div class="project">
+			<p>{{project.title}}
+		</div>
+	</div>
+</div>
