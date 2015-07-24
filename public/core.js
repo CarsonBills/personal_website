@@ -8,6 +8,12 @@ app.config(function($routeProvider){
 		when('/contact', {
 			templateUrl: "contact.html"
 		}).
+		when("/stack", {
+			templateUrl: "stack.html"
+		}).
+		when("/about", {
+			templateUrl: "about.html"
+		}).
 		when("/portfolio", {
 			templateUrl: "portfolio.html",
 			controller: "PortfolioIndexController",
