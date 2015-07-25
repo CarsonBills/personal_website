@@ -1,0 +1,12 @@
+
+@font-face{
+	font-family: "quicksand";
+	src: url(Quicksand-Regular.otf)
+	format("opentype")
+}
+
+body {
+	background-color: #2C3E50;
+	color: white;	
+	font-family: "quicksand"
+}
