@@ -10,6 +10,10 @@ a {
 	color: white;
 }
 
+.github-logo {
+	width: 90px;
+}
+
 .logo-container {
 	position: relative;
 	width: 80px;
