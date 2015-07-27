@@ -49,6 +49,9 @@ div.projects {
 	margin: 5px;
 	background-color: lightgrey;
 }
+.screenshot {
+	max-width: 200px;
+}
 
 .about-wrapper {
 	width: 80%;
