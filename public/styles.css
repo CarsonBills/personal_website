@@ -10,9 +10,22 @@ a {
 	color: white;
 }
 
-.nav-logo {
-	width: 10%;
-	height: 10%;
+.logo-container {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin-left: 10%;
+}
+
+.logo-C {
+	position: absolute;
+	font-size: 70px;
+}
+.logo-B {
+	position: absolute;
+	font-size: 35px;
+	top: 22px;
+	left: 20px;
 }
 
 div.projects {
