@@ -49,3 +49,17 @@ div.projects {
 	margin: 5px;
 	background-color: lightgrey;
 }
+
+.about-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.about-text {
+	float: left;
+	width: 45%;
+}
+
+.about-picture {
+	max-width: 350px;
+}
