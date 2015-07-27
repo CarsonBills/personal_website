@@ -1,11 +1,13 @@
 <h1> Portfolio </h1>
 
 <div class="portfolio-wrapper">
-	<div class="projects" ng-repeat="project in portfolioController.projects">
-		<div class="project">
-			<img ng-src="{{project.screenshot}}"/>
-			<p>{{project.title}}</p>
-			<p>{{project.description}}</p>
+	<div class="projects">
+		<div ng-repeat="project in portfolioController.projects">
+			<div class="project">
+				<img ng-src="{{project.screenshot}}"/>
+				<p>{{project.title}}</p>
+				<p>{{project.description}}</p>
+			</div>
 		</div>
 	</div>
 </div>

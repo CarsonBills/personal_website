@@ -1,11 +1,27 @@
-
 body {
 	background-color: #2C3E50;
 	color: white;	
 	font-family: "Quicksand", sans-serif;
+	text-align: center;
 }
 
 a {
 	text-decoration: none;
 	color: white;
+}
+
+div.projects {
+	background-color: grey;
+	width: 80%;
+	max-width: 1047px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.project {
+	float: left;
+	width: 250px;
+	height: 300px;
+	margin: 5px;
+	background-color: lightgrey;
 }
