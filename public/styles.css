@@ -10,6 +10,11 @@ a {
 	color: white;
 }
 
+.nav-logo {
+	width: 10%;
+	height: 10%;
+}
+
 div.projects {
 	background-color: grey;
 	width: 80%;
