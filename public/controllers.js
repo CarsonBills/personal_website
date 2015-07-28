@@ -11,5 +11,6 @@ angular.module("cmb")
 	$http({method: "GET", url: "/api/projects/" + $routeParams.id})
 	.success(function(data){
 		controller.project = data;
+		console.log(data)
 	});
 });
