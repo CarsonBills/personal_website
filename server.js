@@ -3,7 +3,23 @@ var app = express();
 
 app.use(express.static(__dirname + "/public"));
 
-app.get('/api/projects', function(req, res){
+app.get("/api/projects/:id", function(req, res){
+	var projects = [
+		{
+			id: 0,
+			title: "BusyQuill",
+			description: "BusyQuill is a game written in Sinatra that uses Backbone.js to display generated passages that maintain the tone of one of several authors."
+		},
+		{
+			id: 1,
+			title: "Seek",
+			description: "Seek is a Rails Application that gathers data about a city and returns it so that user gets a snapshot idea of a possible travel destination."
+		}
+	]
+	res.send(projects[req.params.id])
+})
+
+app.get('/api/portfolio', function(req, res){
 	var projects = [
 		{
 			title: "BusyQuill",

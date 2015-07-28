@@ -19,5 +19,10 @@ app.config(function($routeProvider){
 			controller: "PortfolioIndexController",
 			controllerAs: "portfolioController"
 		}).
+		when("/projects/:id", {
+			templateUrl: "project.html",
+			controller: "ProjectShowController",
+			controllerAs: "projectController"
+		}).
 		otherwise({ redirectTo: "/"});
 });

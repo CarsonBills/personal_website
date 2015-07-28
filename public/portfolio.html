@@ -4,9 +4,9 @@
 	<div class="projects">
 		<div ng-repeat="project in portfolioController.projects">
 			<div class="project">
-				<p>{{project.title}}</p>
-				<img class="screenshot" ng-src="{{project.screenshot}}"/>
-				<p>{{project.description}}</p>
+				<p >{{project.title}}</p>
+				<img ng-href="/#/projects/{{project.id}}" class="screenshot" ng-src="{{project.screenshot}}"/>
+				<p class="description">{{project.description}}</p>
 			</div>
 		</div>
 	</div>
