@@ -10,7 +10,6 @@ angular.module("cmb")
 	var controller = this;
 	$http({method: "GET", url: "/api/projects/" + $routeParams.id})
 	.success(function(data){
-		console.log(data)
-		controller.note = data;
-	})
+		controller.project = data;
+	});
 });
