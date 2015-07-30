@@ -49,6 +49,14 @@ div.projects {
 	margin: 5px;
 	background-color: lightgrey;
 }
+
+.single-project {
+	margin: 0 auto;
+	width: 75%;
+	max-width: 800px;
+	background-color: lightgrey;
+}
+
 .screenshot {
 	max-width: 200px;
 }
