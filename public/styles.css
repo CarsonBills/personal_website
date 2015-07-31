@@ -35,7 +35,6 @@ a {
 }
 
 div.projects {
-	background-color: grey;
 	width: 80%;
 	max-width: 931px;
 	overflow: hidden;
@@ -49,14 +48,16 @@ div.projects {
 	width: 300px;
 	height: 250px;
 	margin: 5px;
-	background-color: lightgrey;
+}
+
+.index-project p {
+	font-size: 25px;
 }
 
 .project {
 	margin: 0 auto;
 	width: 75%;
 	max-width: 800px;
-	background-color: lightgrey;
 }
 
 .index-screenshot {
@@ -66,6 +67,7 @@ div.projects {
 .screenshot {
 	width: 100%;
 	max-width: 700px;
+	margin-top: 5%;
 }
 
 .about-wrapper {
