@@ -15,6 +15,17 @@ a {
 	margin: 100px 10px auto 10px;
 }
 
+.nav {
+	border-bottom: 2px solid #fff;
+	width: 30%;
+	margin: 0 auto;
+	min-width: 350px;
+}
+
+.nav a {
+	margin: 20px 20px 20px 20px;
+}
+
 
 .logo-container {
 	position: relative;
@@ -73,6 +84,10 @@ div.projects {
 .about-wrapper {
 	width: 80%;
 	margin: 0 auto;
+}
+
+.about-wrapper h1 {
+	margin-bottom: 50px;
 }
 
 .about-text {
