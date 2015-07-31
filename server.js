@@ -9,7 +9,8 @@ app.get("/api/projects/:id", function(req, res){
 			id: 0,
 			title: "BusyQuill",
 			screenshot: "/images/busyquill.png",
-			description: "BusyQuill is a game written in Sinatra that uses Backbone.js to display generated passages that maintain the tone of one of several authors."
+			description: "BusyQuill is a game written in Sinatra that uses Backbone.js to display generated passages that maintain the tone of one of several authors.",
+			technologies: ["Ruby", "Sinatra", "Javascript","JQuery", "Backbone.js"]
 		},
 		{
 			id: 1,

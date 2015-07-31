@@ -1,9 +1,16 @@
 <h1>{{projectController.project.title}}</h1>
 
 <div class="project">
-	<img class="screenshot" ng-src="{{projectController.project.screenshot}}"/>
-	<p class="description">{{projectController.project.description}}</p>
-	<a href="/#/portfolio">
+	<a class="exit-button" href="/#/portfolio">
 		<div> X </div>
 	</a>
+	<img class="screenshot" ng-src="{{projectController.project.screenshot}}"/>
+	<div class="project-details">
+		<div class="project-description">
+			<p class="description">{{projectController.project.description}}</p>
+		</div>
+		<div ng-repeat="technology in projectController.project.technologies" class="project-technologies">
+			<p class="technology">{{technology}}</p>
+		</d>
+	</div>
 </div>
