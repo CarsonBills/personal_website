@@ -78,7 +78,12 @@ div.projects {
 .about-text {
 	float: left;
 	width: 45%;
-	max-width: 550px;
+	max-width: 420px;
+}
+
+.about-image {
+	float: right;
+	max-width: 400px;
 }
 
 .about-picture {
@@ -97,13 +102,16 @@ div.projects {
 	}
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1079px){
 	div.about-text {
-		text-align: center;
 		margin: 0 auto;
 		width: 80%;
 		max-width: 560px;
 		float: none;
+	}
+	div.about-image {
+		float: none;
+		margin: 0 auto;
 	}
 }
 
