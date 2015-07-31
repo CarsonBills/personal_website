@@ -88,6 +88,7 @@ div.projects {
 .about-wrapper {
 	width: 80%;
 	margin: 0 auto;
+	max-width: 850px;
 }
 
 .about-wrapper h1 {
@@ -124,6 +125,7 @@ div.projects {
 @media screen and (max-width: 1079px){
 	div.about-text {
 		margin: 0 auto;
+		margin-bottom: 50px;
 		width: 80%;
 		max-width: 560px;
 		float: none;
