@@ -3,9 +3,9 @@
 <div class="portfolio-wrapper">
 	<div class="projects">
 		<div ng-repeat="project in portfolioController.projects">
-			<div class="project">
+			<div class="index-project">
 				<a ng-href="/#/projects/{{project.id}}">{{project.title}}</a>
-				<img class="screenshot" ng-src="{{project.screenshot}}"/>
+				<img class="index-screenshot" ng-src="{{project.screenshot}}"/>
 				<p class="description">{{project.description}}</p>
 			</div>
 		</div>

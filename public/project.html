@@ -1,7 +1,7 @@
-<h1> Project Show </h1>
+<h1>{{projectController.project.title}}</h1>
 
-<div class="single-project">
-	<p >{{projectController.project.title}}</p>
+<div class="project">
+	<img class="screenshot" ng-src="{{projectController.project.screenshot}}"/>
 	<p class="description">{{projectController.project.description}}</p>
 	<a href="/#/portfolio">
 		<div> X </div>
