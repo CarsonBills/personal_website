@@ -9,8 +9,10 @@
 		<div class="project-description">
 			<p class="description">{{projectController.project.description}}</p>
 		</div>
-		<div ng-repeat="technology in projectController.project.technologies" class="project-technologies">
-			<p class="technology">{{technology}}</p>
-		</d>
+		<div class="project-technologies">
+			<p class="technology" ng-repeat="technology in projectController.project.technologies" >
+				{{technology}},
+			</p>
+		</div>
 	</div>
 </div>

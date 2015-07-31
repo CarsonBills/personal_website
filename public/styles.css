@@ -75,6 +75,10 @@ div.projects {
 	max-width: 800px;
 }
 
+.project-technologies p{
+	display: inline;
+}
+
 .index-screenshot {
 	max-width: 280px;
 }
