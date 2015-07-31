@@ -88,7 +88,7 @@ div.projects {
 .about-wrapper {
 	width: 80%;
 	margin: 0 auto;
-	max-width: 850px;
+	max-width: 880px;
 }
 
 .about-wrapper h1 {
@@ -99,6 +99,7 @@ div.projects {
 	float: left;
 	width: 45%;
 	max-width: 420px;
+	min-width: 396px;
 }
 
 .about-image {
@@ -139,5 +140,8 @@ div.projects {
 @media screen and (max-width: 500px) {
 	img.about-picture {
 		max-width: 250px;
+	}
+	div.about-text {
+		min-width: 250px;
 	}
 }
