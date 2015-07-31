@@ -8,16 +8,19 @@ app.get("/api/projects/:id", function(req, res){
 		{
 			id: 0,
 			title: "BusyQuill",
+			screenshot: "/images/busyquill.png",
 			description: "BusyQuill is a game written in Sinatra that uses Backbone.js to display generated passages that maintain the tone of one of several authors."
 		},
 		{
 			id: 1,
 			title: "Seek",
+			screenshot: "/images/seek.png",
 			description: "Seek is a Rails Application that gathers data about a city and returns it so that user gets a snapshot idea of a possible travel destination."
 		},
 		{
 			id: 2,
 			title: "CB URLShort",
+			screenshot: "/images/shortener.png",
 			description: "CB URL Shortener is a Rails application built to reduce the length of a URL to a manageable size."
 		},
 		{
@@ -77,6 +80,7 @@ app.get('/api/portfolio', function(req, res){
 		{
 			id: 3,
 			title: "TacoShack",
+			screenshot: "/images/tacoshack.png",
 		},
 		{
 			id: 4,
