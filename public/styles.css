@@ -37,15 +37,17 @@ a {
 div.projects {
 	background-color: grey;
 	width: 80%;
-	max-width: 1047px;
+	max-width: 931px;
 	overflow: hidden;
 	margin: 0 auto;
 }
 
+
+
 .index-project {
 	float: left;
-	width: 250px;
-	height: 300px;
+	width: 300px;
+	height: 250px;
 	margin: 5px;
 	background-color: lightgrey;
 }
@@ -58,7 +60,7 @@ div.projects {
 }
 
 .index-screenshot {
-	max-width: 200px;
+	max-width: 280px;
 }
 
 .screenshot {
@@ -78,4 +80,16 @@ div.projects {
 
 .about-picture {
 	max-width: 350px;
+}
+
+@media screen and (max-width: 1179px) {
+  div.projects {
+    max-width: 620px;
+  }
+}
+
+@media screen and (max-width: 791px) {
+	div.projects {
+		max-width: 310px;
+	}
 }

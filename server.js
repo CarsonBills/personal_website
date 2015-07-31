@@ -26,6 +26,7 @@ app.get("/api/projects/:id", function(req, res){
 		{
 			id: 3,
 			title: "TacoShack",
+			screenshot: "/images/tacoshack.png",
 			description: "Tacoshack is a Rails application that generates silly menu items."
 		},
 		{
