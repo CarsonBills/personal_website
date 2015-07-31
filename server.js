@@ -24,7 +24,7 @@ app.get("/api/projects/:id", function(req, res){
 			title: "CB URLShort",
 			screenshot: "/images/shortener.png",
 			description: "CB URL Shortener is a Rails application built to reduce the length of a URL to a manageable size.",
-			technologies: ["Ruby", "Rails", "Javascript","JQuery", "Backbone.js"]
+			technologies: ["Ruby", "Rails", "Javascript","JQuery"]
 		},
 		{
 			id: 3,
@@ -38,7 +38,7 @@ app.get("/api/projects/:id", function(req, res){
 			title: "Dante's Inferno",
 			screenshot: "/images/inferno.png",
 			description: "The Inferno is an animated application of the first Canto of Dante's Inferno written using JQuery.",
-			technologies: ["Javascript","JQuery"]
+			technologies: ["HTML", "CSS", "Javascript","JQuery"]
 		},
 		{
 			id: 5,
@@ -63,7 +63,7 @@ app.get("/api/projects/:id", function(req, res){
 		{
 			id: 8,
 			title: "CarsonBills.com",
-			description: "Built in Express and Angular, to showcase my web development experience.",
+			description: "Built in Express and Angular, to showcase web development experience.",
 			technologies: ["Javascript", "Node.js", "Express.js", "JQuery", "Angular.js"]
 		}
 	]
