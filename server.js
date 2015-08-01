@@ -100,6 +100,12 @@ app.get("/api/projects/:id", function(req, res){
 				"Github": "https://github.com/CarsonBills/personal_website",
 				"Launch App": "http://carsonbills.com/" 
 			}
+		},
+		{
+			id: 9,
+			title: "Bumbershoot Equipment",
+			screenshot: "/images/bumbershoot.png",
+			description: "Details coming soon!",
 		}
 	]
 	res.send(projects[req.params.id])
@@ -149,6 +155,11 @@ app.get('/api/portfolio', function(req, res){
 		{
 			id: 8,
 			title: "CarsonBills.com",
+		},
+		{	
+			id: 9,
+			title: "Bumbershoot Equipment",
+			screenshot: "/images/bumbershoot.png"
 		}
 	]
 	res.send(projects)
