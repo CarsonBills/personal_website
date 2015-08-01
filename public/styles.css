@@ -80,17 +80,28 @@ div.projects {
 	height: 150px;
 }
 
-.project-description {
+.project-description-left {
 	width: 45%;
 	padding-left: 3%;
 	border-right: 2px solid #fff;
 	float: left;
 }
 
-.project-technologies {
+.project-description-right {
 	width: 45%;
 	padding-right: 4%;
 	float: right;
+}
+
+div.project-external-links {
+	margin: 20px auto 5px auto;
+	width: 300px;
+}
+
+.project-external-links h3 {
+	font-size: 25px;
+	margin-right: 10px;
+	display: inline;
 }
 
 .description {

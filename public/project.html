@@ -6,13 +6,20 @@
 	</a>
 	<img class="screenshot" ng-src="{{projectController.project.screenshot}}"/>
 	<div class="project-details">
-		<div class="project-description">
+		<div class="project-description-left">
 			<p class="description">{{projectController.project.description}}</p>
 		</div>
-		<div class="project-technologies">
-			<p class="technology" ng-repeat="technology in projectController.project.technologies" >
-				{{technology}},
-			</p>
+		<div class="project-description-right">
+			<div class="project-technologies">
+				<p class="technology" ng-repeat="technology in projectController.project.technologies" >
+					{{technology}}
+				</p>
+			</div>
+			<div class="project-external-links">
+				<h3 ng-repeat="(key, value) in projectController.project.links">
+					<a href="{{value}}">{{key}}</a>
+				</h3>
+			</div>
 		</div>
 	</div>
 </div>
