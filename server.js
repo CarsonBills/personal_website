@@ -10,7 +10,7 @@ app.get("/api/projects/:id", function(req, res){
 			title: "BusyQuill",
 			screenshot: "/images/busyquill.png",
 			description: "BusyQuill is a game written in Sinatra that uses Backbone.js to display generated passages that maintain the tone of one of several authors.",
-			technologies: ["Ruby", "Sinatra", "Javascript","JQuery", "Backbone.js"]
+			technologies: ["Ruby", "Sinatra", "Javascript","JQuery", "Backbone.js"],
 		},
 		{
 			id: 1,
@@ -58,7 +58,7 @@ app.get("/api/projects/:id", function(req, res){
 			id: 7,
 			title: "Good Morning Carson",
 			description: "Good Morning Carson is an Express application that gathers info for my morning routine.",
-			technologies: ["Javascript", "Node.js", "Express.js", "JQuery", "Angular.js", "React.js", "Adobe Illustrator"]
+			technologies: ["Javascript", "Node.js", "Express.js", "JQuery", "Angular.js", "React.js", "Adobe Illustrator"],
 		},
 		{
 			id: 8,

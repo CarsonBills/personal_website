@@ -75,9 +75,14 @@ div.projects {
 	max-width: 800px;
 }
 
+.project-details {
+	margin-top: 50px;
+	height: 150px;
+}
+
 .project-description {
 	width: 45%;
-	padding-left: 5%;
+	padding-left: 3%;
 	border-right: 2px solid #fff;
 	float: left;
 }
@@ -92,9 +97,14 @@ div.projects {
 	margin: 0;
 }
 
+.exit-button {
+	float: right;
+	font-size: 40px;
+}
 
 .project-technologies p{
 	display: inline;
+	max-width: 70px;
 }
 
 .index-screenshot {
