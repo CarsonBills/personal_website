@@ -65,6 +65,10 @@ a {
 	margin-bottom: 200px;
 }
 
+.email {
+	margin-top: 70px;
+}
+
 div.projects {
 	width: 80%;
 	max-width: 931px;
@@ -98,14 +102,13 @@ div.projects {
 
 .project-description-left {
 	width: 45%;
-	padding-left: 3%;
+	padding-right: 30px;
 	border-right: 2px solid #fff;
 	float: left;
 }
 
 .project-description-right {
 	width: 45%;
-	padding-right: 4%;
 	float: right;
 }
 
