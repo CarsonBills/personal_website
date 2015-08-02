@@ -5,7 +5,9 @@
 		<div ng-repeat="project in portfolioController.projects">
 			<div class="index-project">
 				<p><a ng-href="/#/projects/{{project.id}}">{{project.title}}</a></p>
-				<img class="index-screenshot" ng-src="{{project.screenshot}}"/>
+				<a ng-href="/#/projects/{{project.id}}">
+					<img class="index-screenshot" ng-src="{{project.screenshot}}"/>
+				</a>
 			</div>
 		</div>
 	</div>

@@ -1,8 +1,19 @@
-body {
+html body {
 	background-color: #2C3E50;
 	color: white;	
 	font-family: "Quicksand", sans-serif;
 	text-align: center;
+	height: 100%;
+}
+
+.page-wrap {
+	min-height: 100%;
+	height: 100%;
+	margin: 0 auto 50px auto;
+}
+
+.push, .footer {
+	height: 50px;
 }
 
 a {
@@ -47,6 +58,11 @@ a {
 	font-size: 35px;
 	top: 22px;
 	left: 20px;
+}
+
+.contact-wrap {
+	height: 100%;
+	margin-bottom: 200px;
 }
 
 div.projects {
@@ -152,12 +168,6 @@ div.project-external-links {
 
 .about-picture {
 	max-width: 350px;
-}
-
-.footer {
-	margin: 50px auto;
-	text-align: center;
-	font-size: 15px;
 }
 
 @media screen and (max-width: 1179px) {

@@ -85,6 +85,7 @@ app.get("/api/projects/:id", function(req, res){
 			id: 7,
 			title: "Good Morning Carson",
 			description: "Good Morning Carson is an Express application that gathers info for my morning routine.",
+			screenshot: "/images/gmc.png",
 			technologies: ["Javascript", "Node.js", "Express.js", "JQuery", "Angular.js", "React.js", "Adobe Illustrator"],
 			links: {
 				"Github": "https://github.com/CarsonBills/GoodMorningCarson",
@@ -95,6 +96,7 @@ app.get("/api/projects/:id", function(req, res){
 			id: 8,
 			title: "CarsonBills.com",
 			description: "Built in Express and Angular, to showcase web development experience.",
+			screenshot: "/images/carsonbills.png",
 			technologies: ["Javascript", "Node.js", "Express.js", "JQuery", "Angular.js"],
 			links: {
 				"Github": "https://github.com/CarsonBills/personal_website",
@@ -105,7 +107,7 @@ app.get("/api/projects/:id", function(req, res){
 			id: 9,
 			title: "Bumbershoot Equipment",
 			screenshot: "/images/bumbershoot.png",
-			description: "Details coming soon!",
+			description: "Beta release coming soon!",
 		}
 	]
 	res.send(projects[req.params.id])
@@ -151,10 +153,12 @@ app.get('/api/portfolio', function(req, res){
 		{
 			id: 7,
 			title: "Good Morning Carson",
+			screenshot: "/images/gmc.png",
 		},
 		{
 			id: 8,
 			title: "CarsonBills.com",
+			screenshot: "/images/carsonbills.png"
 		},
 		{	
 			id: 9,
