@@ -1,0 +1,24 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "Carson Bills' Personal Website",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarsonBills/personal_website.git"
+  },
+  "author": "Carson Bills",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarsonBills/personal_website/issues"
+  },
+  "homepage": "https://github.com/CarsonBills/personal_website"
+}

@@ -46,7 +46,7 @@ app.get("/api/projects/:id", function(req, res){
 			technologies: ["Ruby", "Rails", "Javascript","JQuery", "Handlebars"],
 			links: {
 				"Github": "https://github.com/CarsonBills/tacoshack",
-				"Launch App": "#" 
+				"Demo": "#" 
 			}
 		},
 		{
@@ -89,7 +89,7 @@ app.get("/api/projects/:id", function(req, res){
 			technologies: ["Javascript", "Node.js", "Express.js", "JQuery", "Angular.js", "React.js", "Adobe Illustrator"],
 			links: {
 				"Github": "https://github.com/CarsonBills/GoodMorningCarson",
-				"Launch App": "#" 
+				"Launch App": "http://goodmorningcarson.herokuapp.com/" 
 			}
 		},
 		{
