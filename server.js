@@ -13,7 +13,7 @@ app.get("/api/projects/:id", function(req, res){
 			technologies: ["Ruby", "Sinatra", "Javascript","JQuery", "Backbone.js"],
 			links: {
 				"Github": "https://github.com/CarsonBills/newclassics",
-				"Launch App": "http://busyquill.herokuapp.com/" 
+				"Launch": "http://busyquill.herokuapp.com/" 
 			}
 		},
 		{
@@ -24,7 +24,7 @@ app.get("/api/projects/:id", function(req, res){
 			technologies: ["Ruby", "Rails", "Javascript","JQuery"],
 			links: {
 				"Github": "https://github.com/mjprude/seek",
-				"Launch App": "http://sightseek.herokuapp.com/" 
+				"Launch": "http://sightseek.herokuapp.com/" 
 			}
 		},
 		{
@@ -35,7 +35,7 @@ app.get("/api/projects/:id", function(req, res){
 			technologies: ["Ruby", "Rails", "Javascript","JQuery"],
 			links: {
 				"Github": "https://github.com/CarsonBills/shortener",
-				"Launch App": "http://cmbills.herokuapp.com/" 
+				"Launch": "http://cmbills.herokuapp.com/" 
 			}
 		},
 		{
@@ -57,7 +57,7 @@ app.get("/api/projects/:id", function(req, res){
 			technologies: ["HTML", "CSS", "Javascript","JQuery"],
 			links: {
 				"Github": "https://github.com/CarsonBills/Dantes_Inferno",
-				"Launch App": "http://carsonbills.github.io/Dantes_Inferno/" 
+				"Launch": "http://carsonbills.github.io/Dantes_Inferno/" 
 			}
 		},
 		{
@@ -67,7 +67,7 @@ app.get("/api/projects/:id", function(req, res){
 			description: "Bloom is a customized WordPress site built to showcase the work of a brooklyn based furniture design collective.",
 			technologies: ["WordPress", "CSS"],
 			links: {
-				"Launch App": "http://104.131.196.163/" 
+				"Launch": "http://104.131.196.163/" 
 			}
 		},
 		{
@@ -78,7 +78,7 @@ app.get("/api/projects/:id", function(req, res){
 			technologies: ["Ruby", "Rails", "Javascript","JQuery", "Backbone.js"],
 			links: {
 				"Github": "https://github.com/CarsonBills/tudor_connect",
-				"Launch App": "http://tudorconnect.herokuapp.com/" 
+				"Launch": "http://tudorconnect.herokuapp.com/" 
 			}
 		},
 		{
@@ -89,7 +89,7 @@ app.get("/api/projects/:id", function(req, res){
 			technologies: ["Javascript", "Node.js", "Express.js", "JQuery", "Angular.js", "React.js", "Adobe Illustrator"],
 			links: {
 				"Github": "https://github.com/CarsonBills/GoodMorningCarson",
-				"Launch App": "http://goodmorningcarson.herokuapp.com/" 
+				"Launch": "http://goodmorningcarson.herokuapp.com/" 
 			}
 		},
 		{
@@ -100,7 +100,7 @@ app.get("/api/projects/:id", function(req, res){
 			technologies: ["Javascript", "Node.js", "Express.js", "JQuery", "Angular.js"],
 			links: {
 				"Github": "https://github.com/CarsonBills/personal_website",
-				"Launch App": "http://carsonbills.com/" 
+				"Launch": "http://carsonbills.com/" 
 			}
 		},
 		{

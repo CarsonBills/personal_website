@@ -1,10 +1,14 @@
-<h1>{{projectController.project.title}}</h1>
+<h1><a href="{{projectController.project.links.Launch}}">
+	{{projectController.project.title}}
+</a></h1>
 
 <div class="project">
 	<a class="exit-button" href="/#/portfolio">
 		<div> X </div>
 	</a>
-	<img class="screenshot" ng-src="{{projectController.project.screenshot}}"/>
+	<a href="{{projectController.project.links.Launch}}">
+		<img class="screenshot" ng-src="{{projectController.project.screenshot}}"/>
+	</a>
 	<div class="project-details">
 		<div class="project-description-left">
 			<p class="description">{{projectController.project.description}}</p>
