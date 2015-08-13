@@ -107,7 +107,11 @@ app.get("/api/projects/:id", function(req, res){
 			id: 9,
 			title: "Bumbershoot Equipment",
 			screenshot: "/images/bumbershoot.png",
-			description: "Beta release coming soon!",
+			description: "Rails App for short term camping equipment rentals. Beta release coming soon!",
+			technologies: ["Ruby", "Rails", "Javascript", "Angular.js", "Bootstrap", "Sass"],
+			links: {
+				"Github": "https://github.com/BumbershootEquipment/Bumbershoot",
+			}
 		}
 	]
 	res.send(projects[req.params.id])
