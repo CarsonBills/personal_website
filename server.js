@@ -122,52 +122,52 @@ app.get('/api/portfolio', function(req, res){
 		{
 			id: 0,
 			title: "BusyQuill",
-			screenshot: "/images/busyquill.png",
+			screenshot: "/images/busyquill_thumb.png",
 		}, 
 		{
 			id: 1,
 			title: "Seek",
-			screenshot: "/images/seek.png",
+			screenshot: "/images/seek_thumb.png",
 		},
 		{
 			id: 2,
 			title: "CB URLShort",
-			screenshot: "/images/shortener.png",
+			screenshot: "/images/shortener_thumb.png",
 		},
 		{
 			id: 3,
 			title: "TacoShack",
-			screenshot: "/images/tacoshack.png",
+			screenshot: "/images/tacoshack_thumb.png",
 		},
 		{
 			id: 4,
 			title: "Dante's Inferno",
-			screenshot: "/images/inferno.png",
+			screenshot: "/images/inferno_thumb.png",
 		},
 		{
 			id: 5,
 			title: "Bloom",
-			screenshot: "/images/bloom.png",
+			screenshot: "/images/bloom_thumb.png",
 		},
 		{
 			id: 6,
 			title: "Tudor Connect",
-			screenshot: "/images/tudor.png",
+			screenshot: "/images/tudor_thumb.png",
 		},
 		{
 			id: 7,
 			title: "Good Morning Carson",
-			screenshot: "/images/gmc.png",
+			screenshot: "/images/gmc_thumb.png",
 		},
 		{
 			id: 8,
 			title: "CarsonBills.com",
-			screenshot: "/images/carsonbills.png"
+			screenshot: "/images/carsonbills_thumb.png"
 		},
 		{	
 			id: 9,
 			title: "Bumbershoot Equipment",
-			screenshot: "/images/bumbershoot.png"
+			screenshot: "/images/bumbershoot_thumb.png"
 		}
 	]
 	res.send(projects)
