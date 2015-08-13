@@ -46,7 +46,7 @@ app.get("/api/projects/:id", function(req, res){
 			technologies: ["Ruby", "Rails", "Javascript","JQuery", "Handlebars"],
 			links: {
 				"Github": "https://github.com/CarsonBills/tacoshack",
-				"Demo": "#" 
+				"Launch": "https://github.com/CarsonBills/tacoshack" 
 			}
 		},
 		{
@@ -110,7 +110,7 @@ app.get("/api/projects/:id", function(req, res){
 			description: "Rails App for short term camping equipment rentals. Beta release coming soon!",
 			technologies: ["Ruby", "Rails", "Javascript", "Angular.js", "Bootstrap", "Sass"],
 			links: {
-				"Github": "https://github.com/BumbershootEquipment/Bumbershoot",
+				"Launch": "https://github.com/BumbershootEquipment/Bumbershoot",
 			}
 		}
 	]
