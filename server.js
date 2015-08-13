@@ -120,19 +120,29 @@ app.get("/api/projects/:id", function(req, res){
 app.get('/api/portfolio', function(req, res){
 	var projects = [
 		{
-			id: 0,
-			title: "BusyQuill",
-			screenshot: "/images/thumbs/busyquill_thumb.png",
-		}, 
+			id: 7,
+			title: "Good Morning Carson",
+			screenshot: "/images/thumbs/gmc_thumb.png",
+		},
+		{	
+			id: 9,
+			title: "Bumbershoot Equip.",
+			screenshot: "/images/thumbs/bumbershoot_thumb.png"
+		},
 		{
 			id: 1,
 			title: "Seek",
 			screenshot: "/images/thumbs/seek_thumb.png",
 		},
 		{
-			id: 2,
-			title: "CB URLShort",
-			screenshot: "/images/thumbs/shortener_thumb.png",
+			id: 0,
+			title: "BusyQuill",
+			screenshot: "/images/thumbs/busyquill_thumb.png",
+		}, 
+		{
+			id: 5,
+			title: "Bloom",
+			screenshot: "/images/thumbs/bloom_thumb.png",
 		},
 		{
 			id: 3,
@@ -140,14 +150,14 @@ app.get('/api/portfolio', function(req, res){
 			screenshot: "/images/thumbs/tacoshack_thumb.png",
 		},
 		{
+			id: 2,
+			title: "CB URLShort",
+			screenshot: "/images/thumbs/shortener_thumb.png",
+		},
+		{
 			id: 4,
 			title: "Dante's Inferno",
 			screenshot: "/images/thumbs/inferno_thumb.png",
-		},
-		{
-			id: 5,
-			title: "Bloom",
-			screenshot: "/images/thumbs/bloom_thumb.png",
 		},
 		{
 			id: 6,
@@ -155,20 +165,10 @@ app.get('/api/portfolio', function(req, res){
 			screenshot: "/images/thumbs/tudor_thumb.png",
 		},
 		{
-			id: 7,
-			title: "Good Morning Carson",
-			screenshot: "/images/thumbs/gmc_thumb.png",
-		},
-		{
 			id: 8,
 			title: "CarsonBills.com",
 			screenshot: "/images/thumbs/carsonbills_thumb.png"
 		},
-		{	
-			id: 9,
-			title: "Bumbershoot Equipment",
-			screenshot: "/images/thumbs/bumbershoot_thumb.png"
-		}
 	]
 	res.send(projects)
 })
