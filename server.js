@@ -122,52 +122,52 @@ app.get('/api/portfolio', function(req, res){
 		{
 			id: 0,
 			title: "BusyQuill",
-			screenshot: "/images/busyquill_thumb.png",
+			screenshot: "/images/thumbs/busyquill_thumb.png",
 		}, 
 		{
 			id: 1,
 			title: "Seek",
-			screenshot: "/images/seek_thumb.png",
+			screenshot: "/images/thumbs/seek_thumb.png",
 		},
 		{
 			id: 2,
 			title: "CB URLShort",
-			screenshot: "/images/shortener_thumb.png",
+			screenshot: "/images/thumbs/shortener_thumb.png",
 		},
 		{
 			id: 3,
 			title: "TacoShack",
-			screenshot: "/images/tacoshack_thumb.png",
+			screenshot: "/images/thumbs/tacoshack_thumb.png",
 		},
 		{
 			id: 4,
 			title: "Dante's Inferno",
-			screenshot: "/images/inferno_thumb.png",
+			screenshot: "/images/thumbs/inferno_thumb.png",
 		},
 		{
 			id: 5,
 			title: "Bloom",
-			screenshot: "/images/bloom_thumb.png",
+			screenshot: "/images/thumbs/bloom_thumb.png",
 		},
 		{
 			id: 6,
 			title: "Tudor Connect",
-			screenshot: "/images/tudor_thumb.png",
+			screenshot: "/images/thumbs/tudor_thumb.png",
 		},
 		{
 			id: 7,
 			title: "Good Morning Carson",
-			screenshot: "/images/gmc_thumb.png",
+			screenshot: "/images/thumbs/gmc_thumb.png",
 		},
 		{
 			id: 8,
 			title: "CarsonBills.com",
-			screenshot: "/images/carsonbills_thumb.png"
+			screenshot: "/images/thumbs/carsonbills_thumb.png"
 		},
 		{	
 			id: 9,
 			title: "Bumbershoot Equipment",
-			screenshot: "/images/bumbershoot_thumb.png"
+			screenshot: "/images/thumbs/bumbershoot_thumb.png"
 		}
 	]
 	res.send(projects)
