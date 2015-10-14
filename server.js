@@ -107,10 +107,11 @@ app.get("/api/projects/:id", function(req, res){
 			id: 9,
 			title: "Bumbershoot Equipment",
 			screenshot: "/images/bumbershoot.png",
-			description: "Rails App for short term camping equipment rentals. Beta release coming soon!",
-			technologies: ["Ruby", "Rails", "Javascript", "Angular.js", "Bootstrap", "Sass"],
+			description: "Rails App for short term camping equipment rentals.",
+			technologies: ["Ruby", "Rails", "Javascript", "Angular.js", "Sass"],
 			links: {
-				"Launch": "https://github.com/BumbershootEquipment/Bumbershoot",
+				"Github": "https://github.com/BumbershootEquipment/Bumbershoot",
+				"Launch": "http://bumbershoot.herokuapp.com/"
 			}
 		}
 	]
