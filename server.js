@@ -6,6 +6,7 @@ app.use(express.static(__dirname + "/public"));
 app.get("/api/projects/:id", function(req, res){
 	var projects = [
 		{
+
 			id: 0,
 			title: "BusyQuill",
 			screenshot: "/images/busyquill.png",
@@ -108,12 +109,34 @@ app.get("/api/projects/:id", function(req, res){
 			title: "Bumbershoot Equipment",
 			screenshot: "/images/bumbershoot.png",
 			description: "Rails App for short term camping equipment rentals.",
-			technologies: ["Ruby", "Rails", "Javascript", "Angular.js", "Sass"],
+			technologies: ["Ruby", "Rails", "Javascript", "Angular.js", "SASS"],
 			links: {
 				"Github": "https://github.com/BumbershootEquipment/Bumbershoot",
 				"Launch": "http://bumbershoot.herokuapp.com/"
 			}
-		}
+		},
+		{
+			id: 10,
+			title: "Speakaboos",
+			screenshot: "/images/speakaboos.png",
+			description: "Speakaboos is a children's educational platform with animated picture books and read-along text to help kids learn to read, built with PHP, JQuery, and SASS",
+			technologies: ["PHP", "Zend", "Javascript","JQuery", "SASS"],
+			links: {
+				"Launch": "https://www.speakaboos.com/" 
+			}
+		},
+		{
+			id: 11,
+			title: "Samantha Kane",
+			screenshot: "/images/samkane.png",
+			description: "Samantha Kane is a romance novelist whom I built a new website for using Javascript, Node, Express, CSS, and Handlebars",
+			technologies: ["Javascript", "Node","Express", "Handlebars","CSS"],
+			links: {
+				"Github": "https://github.com/CarsonBills/SKSite",
+				"Launch": "https://www.samanthakane.us/" 
+			}
+		},
+
 	]
 	res.send(projects[req.params.id])
 })
@@ -121,14 +144,24 @@ app.get("/api/projects/:id", function(req, res){
 app.get('/api/portfolio', function(req, res){
 	var projects = [
 		{
-			id: 7,
-			title: "Good Morning Carson",
-			screenshot: "/images/thumbs/gmc_thumb.png",
+			id: 10,
+			title: "Speakaboos",
+			screenshot: "/images/thumbs/speakaboos_thumb.png",
+		},
+		{
+			id: 11,
+			title: "Samantha Kane",
+			screenshot: "/images/thumbs/samkane_thumb.png",
 		},
 		{	
 			id: 9,
 			title: "Bumbershoot Equip.",
 			screenshot: "/images/thumbs/bumbershoot_thumb.png"
+		},
+		{
+			id: 7,
+			title: "Good Morning Carson",
+			screenshot: "/images/thumbs/gmc_thumb.png",
 		},
 		{
 			id: 1,
